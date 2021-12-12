@@ -1,9 +1,259 @@
-section {
-    position: relative;
-    width: 100%;
+@media screen and (max-width: 600px) {
+   
+   /* section{
+        background-color: black;
+        width: 100%;
+        border: 1.5 px solid green;
+    }
+
+    */
+    .box{
+        height: 12rem;
+        width: 12rem;
+        font-size: 70px;
+        font-weight: 300;
+        box-shadow: inset;
+    }
+    .box .cr1{
+        height: 1rem;
+        width: 1rem;
+        background-color: brown;
+        border-radius: 30px;
+    }
+    .box .cr2{
+        height: 40px;
+        width: 40px;
+        background-color: aquamarine;
+        border-radius: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.sec1{
     height: 100vh;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    width: inherit;
+
+}
+.sec2{
+    height: 100vh;
+
+}
+
+.img-stud{
+    height: 85%;
+    margin-top: 6%;
+}
+
+
+
+/*
+    .box{
+        height: 12rem;
+        width: 12rem;
+        font-size: 70px;
+        font-weight: 300;
+        box-shadow: inset;
+        margin-top:0.8rem;
+    }
+    .box .cr1{
+        height: 2rem;
+        width: 2rem;
+        background-color: brown;
+        border-radius: 30px;
+    }
+    .box .cr2{
+        height: 2rem;
+        width: 2rem;
+        background-color: aquamarine;
+        border-radius: 30px;
+    }
+    
+    
+   
+    section{
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        border: 1.5 px solid green;
+    }
+
+  
+    
+    .box-container {
+        width: auto;
+        height: 100vh;
+        position: relative;
+        margin: 0.5rem auto;
+        overflow: hidden;
+        border: .2rem solid black;
+    }
+    .box1 {
+        position: absolute;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+    }
+    
+    .box01 {
+        background-color: mediumturquoise;
+        left: 0%;
+    }
+    
+    .box02 {
+        background-color: mediumseagreen;
+    }
+    
+    .box03 {
+        background-color: royalblue;
+    }
+    
+    .box04 {
+        background-color: mediumorchid;
+    }
+    
+    h1{
+        font-size: 6rem;
+    }
+    p{
+        font-size: 1.5rem;
+    
+    }
+.img-stud{
+    height: 400px;
+    width:auto;
+}
+.img-grass{
+    height: 20px;
+    width: 80px;
+}
+*/
+
+
+h4{
+    font-size: 1rem;
+    color:black;
+}
+
+.cap{
+
+}
+.cap:hover{
+    background-color: rgb(240, 121, 106);
+    color: white;
+    
+}
+
+.cir{}
+
+.cir img{
+    height: 5rem;
+    width: auto;
+    
+}
+.cir small{
+    font-size: 0.7rem;
+    color: black;
+    font-weight: normal;
+    font-family: laila;
+
+}
+.cir div{
+    border-radius: 100%;
+    padding: 1rem;
+    background-color:white;
+}
+.phi{
+
+}
+
+.phi span{
+    font-size: 1.4rem;
+    color:black;
+    font-weight: 15px;
+}
+
+.phi p{
+    font-size: 14px;
+    font-family: laila;
+    font-weight: normal;
+    color: gray;
+}
+.oval{}
+.oval span{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: laila;
+    color: black;
+
+}
+.oval p{
+    font-size: 14px;
+    font-family: laila;
+    color: gray;
+    font-weight: normal;
+}
+.parrent{
+
+
+}
+.parrent h1{
+    font-weight: bold;
+    font-size: 14px;
+    color:black;
+    text-align: center;
+}
+
+.parrent p{
+    font-weight: normal;
+    font-family: laila;
+    font-size: 15px;
+    line-height: 3ch;
+    color:gray;
+    text-align: center;
+
+}
+
+.tabs{
+
+}
+
+.tabs a{
+    color: black;
+
+}
+.tabs a:active{
+    color: blue;
+    border-bottom: 1px solid black;
+    text-decoration: dashed;
+}
+.tabs a::before{
+    color: blue;
+    border-bottom: 1px solid black;
+}
+.tabs a:visited{
+    color: blue;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,17 @@
+    <div class="modal-header">
+      <h4 class="modal-title text-center">Mail Verification</h4>
+      <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+    <div class="row">
+            <div class="col-sm">
+                <input type="text" class="form-control form-control-sm" placeholder="e-mail"  required="true" style="border: 1.5px solid black;">
+            </div>
+            <div class="col-sm-auto text-center">
+                    <input type="button" class="btn btn-sm btn-primary" name="Submit" (click)="sentmail()" value="Verify">
+            </div>
+    </div> 
+</div>
+  

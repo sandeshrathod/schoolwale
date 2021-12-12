@@ -1,0 +1,15 @@
+section{
+    height: 100vh;
+    width: inherit;
+}
+
+label{
+    font-size: 1 rem;
+    color: black;
+    font-weight: bold;
+}
+h1{
+    font-size: 1rem;
+    color: brown;
+    font-weight: bold;
+}
